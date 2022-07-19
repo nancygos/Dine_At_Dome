@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/Dine_At_Dome/static/css/main.f7e6f3e2.css",
+    "main.js": "/Dine_At_Dome/static/js/main.7ee2e685.js",
+    "static/media/dine5.png": "/Dine_At_Dome/static/media/dine5.2cd5f28e7e657e7cd960.png",
+    "static/media/dine4.jpg": "/Dine_At_Dome/static/media/dine4.1d81f502ce003e46b638.jpg",
+    "static/media/chefHat.png": "/Dine_At_Dome/static/media/chefHat.1308fa29b3c443fdb47a.png",
+    "static/media/martiniGlass.jpg": "/Dine_At_Dome/static/media/martiniGlass.0723b71defc4cf3c1bac.jpg",
+    "static/media/dine1.jpg": "/Dine_At_Dome/static/media/dine1.b5b7faf24655d724c4d9.jpg",
+    "static/media/dine3.jpg": "/Dine_At_Dome/static/media/dine3.1b11c23ea491b3d6f1ef.jpg",
+    "static/media/dine2.jpg": "/Dine_At_Dome/static/media/dine2.c3e144dd1164bf54a42e.jpg",
+    "static/media/glass.png": "/Dine_At_Dome/static/media/glass.d938d003f42cb8860e54.png",
+    "index.html": "/Dine_At_Dome/index.html",
+    "main.f7e6f3e2.css.map": "/Dine_At_Dome/static/css/main.f7e6f3e2.css.map",
+    "main.7ee2e685.js.map": "/Dine_At_Dome/static/js/main.7ee2e685.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f7e6f3e2.css",
+    "static/js/main.7ee2e685.js"
+  ]
+}
