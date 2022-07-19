@@ -1,0 +1,410 @@
+*{
+  margin: 0;
+  padding:0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* *********************   NAVBAR   ******************* */
+
+.container{
+  background-image: url('https://source.unsplash.com/random/900×700/?dark-dome');
+  width:100vw;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  justify-content:space-between;
+  /* opacity: 0.7; */
+}
+
+.navContainer{
+  display: flex;
+  justify-content: space-between;
+  width:95.5vw;
+  /* background-color: red; */
+  padding: 7px;
+  align-items: center;
+}
+.list ul{
+  display: flex;
+}
+.list ul li{
+  list-style: none;
+  display: flex;
+  /* background-color: red; */
+  justify-content: space-evenly;
+  width:100px;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.list ul li a{
+  color: white;
+  text-decoration: none;
+}
+
+.logo{
+  width:122px;
+}
+.centerText{
+  color: white;
+  font-size: 50px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 400;
+  text-align: center;
+}
+.centerPara{
+  text-align: center;
+  color: white;
+  font-size: 18px;
+}
+#select{
+  width:240px;
+  padding: 13px;
+  border-radius: 5px;
+  font-size: 16px;
+  color: grey;
+  max-width: 100%;
+}
+.search-btn{
+  cursor: pointer;
+  padding: 1;
+  width:140px;
+  padding: 13px;
+  border-radius: 5px;
+  font-size: 18px;
+  color: white;
+  background-color: #EAAE3F;
+  border: none;
+  margin: 0 0 0 20px;
+  max-width: 100%;
+}
+.search-bar{
+  padding: 30px;
+}
+.glass{
+  width:20px;
+}
+
+.baseContainer{
+  display: flex;
+  justify-content: space-evenly;
+  width: 570px;
+  margin-bottom: 30px;
+}
+.smallCards{
+  width:80px;
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: 14px;
+  color: white;
+  background-color: rgba(255, 255, 255, 0.4);
+  /* -webkit-backdrop-filter: blur(5px); */
+  backdrop-filter: blur(2px);
+}
+.smallCardsImg{
+  width:60px;
+}
+
+
+/* *********************   WHERE TO DINE   ******************* */
+
+.WhereToDine-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 100px;
+  align-items: center;
+  /* background-color: green; */
+
+}
+.wheretodine-heading{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 43px;
+  font-weight: 100;
+}
+.wheretodine-para{
+  font-size: 20px;
+  font-weight: 100;
+}
+.WhereToDome-cards{
+  display: flex;
+  /* background-color: green; */
+  width:1100px;
+  flex-wrap: wrap;
+  padding-top: 30px;
+  justify-content: center;
+max-width: 100%;
+flex-wrap: wrap;
+}
+
+
+/* *********************   CARD   ******************* */
+
+.cardContainer{
+  width:300px;
+  height: 400px;
+  /* background-color: red; */
+  border-radius: 10px;
+  border: 3px solid rgb(212, 212, 212);
+  margin: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.cardImage{
+  border-radius:10px 10px 0 0  ;
+}
+.cardHeading{
+  font-family: 'Times New Roman', Times, serif;
+  color: #EAAE3F;
+  font-weight: 100;
+  font-size: 23px;
+}
+.cardPara{
+  font-weight: 100;
+  font-size: 16px;
+}
+
+.written{
+  /* background-color: red; */
+  margin: 10px 15px;
+  margin-top: 30px;
+}
+.cardSizeController{
+  background-color: red;
+}
+
+
+/* *********************   HOW IT WORK   ******************* */
+
+hr{
+  border: 1px solid rgb(245, 244, 244);
+}
+
+.howItwork{
+  background-color: #FBFBFB;
+}
+
+.HowItWork-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 100px;
+  align-items: center;
+  /* background-color: green; */
+
+}
+.howitworks-heading{
+  font-size: 38px;
+}
+
+/* *********************   CARD2   ******************* */
+
+.card2Container{
+  width:280px;
+  height: 350px;
+  padding:25px 12px;
+  border-radius: 10px;
+  border: 1px solid rgb(212, 212, 212);
+  background-color: white;
+  max-width: 100%;
+}
+
+.cardImage{
+  border-radius:0 ;
+}
+.cardHeading{
+  font-family: 'Times New Roman', Times, serif;
+  color: black;
+  font-weight: 100;
+  font-size: 23px;
+  text-align: center;
+}
+.cardPara{
+  margin-top: 10px;
+  font-weight: 100;
+  text-align: center;
+  font-size: 16px;
+  color: grey;
+}
+
+
+/* *********************   FOOTER   ******************* */
+.fotterContainer{
+  background-color: #161A23;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  color: white;
+  padding: 50px;
+  font-size: 12px;
+  font-weight: 100;
+}
+
+.fotterLinks{
+  display: flex;
+  margin-left: 10px;
+}
+.fotterLinks li{
+  margin: 15px;
+}
+
+.fotterLinks li a{
+  text-decoration: none;
+  color: white;
+  font-weight: 100;
+  font-size: 14px;
+}
+
+.fotterLinks li a:hover{
+  color: #EAAE3F;
+}
+
+/* *********************   TOP NAVBAR   ******************* */
+
+.topNavBar-container{
+  display: flex;
+  align-items: center;
+  width:1300px;
+  /* background-color: red; */
+  height: 10px;
+  justify-content:space-between ;
+  padding: 30px;
+  max-width: 100%;
+}
+.left a{
+  text-decoration: none;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 100;
+  border-right: 1px solid rgb(199, 199, 199);
+  padding:0 25px 0 0;
+  color: black;
+}
+.right ul {
+  display: flex;
+}
+.right ul li{
+  list-style: none;
+  /* background-color: green; */
+  margin: 10px;
+  border-right: 1px solid rgb(199, 199, 199);
+  padding:0 16px;
+}
+.right ul li a{
+  color: black;
+  text-decoration: none;
+}
+#top-navBar-search{
+  padding: 15px;
+  border: none;
+  font-size: 15px;
+  width:220px;
+  /* background-color: red; */
+  max-width: 100%;
+}
+
+/* *********************   CONTACT   ******************* */
+
+.contact-container{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.contact-image{
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 340px;
+}
+.contact-h1{
+  font-weight: 100;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 40px;
+}
+.contact-written{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* background-color: red; */
+  height: 200px;
+  padding: 50px;
+  padding-bottom: 150px;
+}
+
+
+/* *********************   ABOUT   ******************* */
+
+.about-top{
+  background-image: url("./components/images/dine4.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:cover ;
+  width:100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.About-dine-image{
+  width:200px;
+  height: 200px;
+  /* background-color: red; */
+}
+.about-heading{
+  color: white;
+  font-weight: 600;
+  /* background-color: red; */
+  text-align: center;
+  width: 550px;
+  max-width: 100%;
+  position:relative;
+  top:-90px;
+}
+.about-mid{
+  width: 100vw;
+  height: 100vh;
+  background-color: #161A23;
+}
+
+
+
+
+@media only screen and (max-width:590px) {
+  .list{
+    display: none;
+  }
+  .centerText{
+    font-size: 5vw;
+  } 
+  .centerPara{
+    font-size: 4vw;
+  }
+  .searchSpan{
+    display: none;
+  }
+  .search-btn{
+    width:50px;
+  }
+  .fotterContainer{
+    flex-direction: column;
+  }
+  .right{
+    display: none;
+  }
+  .topNavBar-container{
+    justify-content: center;
+    align-items: center;
+    /* background-color: red; */
+  }
+  #top-navBar-search{
+    display: none;
+  }
+}
